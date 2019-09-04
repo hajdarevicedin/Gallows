@@ -1,3 +1,11 @@
 header {
     text-align: center;
 }
+
+#left-part {
+    float: left;
+}
+
+#right-part {
+    float: right;
+}
