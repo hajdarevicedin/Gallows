@@ -19,7 +19,25 @@ header {
   width: 150px;
   border: 2px solid #BFC0C0;
   margin: 20px 20px 20px 20px;
-  color: rgb(223, 220, 70);
+  color: rgb(24, 10, 85);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 32px;
+}
+
+#submit-word-button1 {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid rgb(23, 156, 156);
+  margin: 20px 20px 20px 20px;
+  color: #00FF00;
+  background-color: #454545;
   text-transform: uppercase;
   text-decoration: none;
   font-size: .8em;
@@ -29,18 +47,19 @@ header {
   overflow: hidden;
 }
 
-#submit-word-button1 {
-  display: inline-flex;
-  height: 40px;
-  width: 150px;
-  border: 2px solid #BFC0C0;
-  margin: 20px 20px 20px 20px;
-  color: ##223775;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: .8em;
-  letter-spacing: 1.5px;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
+#submit-word-button1:hover {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #454545;
+    margin: 20px 20px 20px 20px;
+    color: #00FF00;
+    background-color: rgb(16, 116, 116);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
